@@ -1,0 +1,21 @@
+<header class="app-header">
+  <h1 class="app-title">{{ title }}</h1>
+  <nav class="app-nav">
+    <a
+      routerLink="/dashboard"
+      routerLinkActive="app-nav__item--active"
+      class="app-nav__item"
+    >
+      Dashboard
+    </a>
+    <a
+      routerLink="/heroes"
+      routerLinkActive="app-nav__item--active"
+      class="app-nav__item"
+    >
+      Heroes
+    </a>
+  </nav>
+</header>
+<router-outlet></router-outlet>
+<app-messages></app-messages>
